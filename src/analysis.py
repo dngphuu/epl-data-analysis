@@ -15,7 +15,7 @@ def main():
     stats_cols = numeric_df.columns.tolist()
     
     print("Finding top 3 and bottom 3 players for each statistic...")
-    with open('reports/top_3.txt', 'w') as f:
+    with open('reports/top_3.txt', 'w', encoding='utf-8') as f:
         for col in stats_cols:
             f.write(f"=== {col} ===\n")
             # dropna is important to not consider NaNs as top or bottom
@@ -90,38 +90,41 @@ def main():
     best_team = max(team_scores, key=team_scores.get)
     print(f"Based on a simple z-score sum of stats, the best performing team is: {best_team}")
     
-    print("Plotting histograms... (This might take a while, taking a subset of key stats for clarity or all if required)")
-    # For all stats is too much, but assignment asks for "distribution of each statistic for all players and each team"
-    # To prevent hundreds of plots, let's plot overall histograms into one or multiple files
-    
-    # We will pick top 10 important stats to plot to avoid cluttering visually, 
-    # but the task asks for 'each statistic'. We'll save a combined PDF or multiple pngs.
-    
-    important_stats = ['Goals', 'Assists', 'Expected Goals (xG)', 'Pass Completion %', 'Tackles', 'SCA', 'TransferValue_EUR']
-    important_stats = [s for s in important_stats if s in stats_cols]
-    
-    for stat in important_stats:
+    print("Plotting histograms for each statistic...")
+    # Assignment asks for "distribution of each statistic for all players in the league and each team"
+    for stat in stats_cols:
+        # 1. Overall Distribution
         plt.figure(figsize=(10, 6))
-        plt.hist(df[stat].dropna(), bins=20, alpha=0.7, color='blue', edgecolor='black')
+        # Ensure we have valid numeric data
+        data_to_plot = df[stat].apply(pd.to_numeric, errors='coerce').dropna()
+        if data_to_plot.empty:
+            plt.close()
+            continue
+            
+        plt.hist(data_to_plot, bins=20, alpha=0.7, color='blue', edgecolor='black')
         plt.title(f'Overall Distribution of {stat}')
         plt.xlabel(stat)
         plt.ylabel('Frequency')
-        plt.savefig(f'reports/figures/hist_overall_{stat.replace(" ", "_").replace("/", "").replace("%", "pct")}.png')
+        safe_stat_name = stat.replace(" ", "_").replace("/", "").replace("%", "pct").replace("#", "num")
+        plt.savefig(f'reports/figures/hist_overall_{safe_stat_name}.png')
         plt.close()
         
-        # for each team
+        # 2. Team Distribution (on one plot)
         plt.figure(figsize=(15, 10))
         for team in teams:
-            team_data = df[df['Club'] == team][stat].dropna()
+            team_data = df[df['Club'] == team][stat].apply(pd.to_numeric, errors='coerce').dropna()
             if not team_data.empty:
                 plt.hist(team_data, bins=15, alpha=0.5, label=team, density=True, histtype='step')
-        plt.title(f'Team Distribution of {stat}')
+        
+        plt.title(f'Team Comparison Distribution of {stat}')
         plt.xlabel(stat)
         plt.ylabel('Density')
         plt.legend(loc='upper right', bbox_to_anchor=(1.15, 1.05), fontsize='small')
         plt.tight_layout()
-        plt.savefig(f'reports/figures/hist_teams_{stat.replace(" ", "_").replace("/", "").replace("%", "pct")}.png')
+        plt.savefig(f'reports/figures/hist_teams_{safe_stat_name}.png')
         plt.close()
+        
+    print(f"Histograms generated in reports/figures/")
 
 if __name__ == "__main__":
     main()

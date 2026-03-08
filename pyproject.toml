@@ -1,0 +1,20 @@
+[project]
+name = "pj"
+version = "0.1.0"
+description = "Project PJ initialized with uv"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "torchvision",
+    "numpy",
+    "pandas",
+    "requests",
+    "beautifulsoup4",
+    "matplotlib",
+    "scikit-learn",
+    "scipy",
+]
+
+[tool.uv]
+# uv specific settings can be added here

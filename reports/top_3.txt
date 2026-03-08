@@ -1,452 +1,452 @@
 === Appearances ===
 Top 3:
-  Mohamed Salah: 38
-  David Raya: 38
-  Keane Lewis-Potter: 38
+  Anthony Elanga: 38.0
+  Ollie Watkins: 38.0
+  Raúl Jiménez: 38.0
 Bottom 3:
-  Tom King: 1
-  Kaelan Casey: 1
-  Ryan Trevitt: 1
+  Jason Steele: 2.0
+  Billy Gilmour: 2.0
+  Jahmai Simpson-Pusey: 2.0
 
 === Minutes ===
 Top 3:
-  David Raya: 3420
-  Nathan Collins: 3420
-  Jordan Pickford: 3420
+  Matz Sels: 3420.0
+  Nathan Collins: 3420.0
+  Bernd Leno: 3420.0
 Bottom 3:
-  Remy Rees-Dottin: 1
-  Zain Silcott-Duberry: 1
-  Michael Golding: 1
+  Harrison Reed: 92.0
+  Rico Henry: 94.0
+  Jeffrey Schlupp: 95.0
 
 === Goals ===
 Top 3:
-  Mohamed Salah: 29
-  Alexander Isak: 23
-  Erling Haaland: 22
+  Mohamed Salah: 29.0
+  Alexander Isak: 23.0
+  Erling Haaland: 22.0
 Bottom 3:
-  Joe Gomez: 0
-  Will Alves: 0
-  Woyo Coulibaly: 0
+  Álex Moreno: 0.0
+  Wesley Fofana: 0.0
+  Wes Burns: 0.0
 
 === Assists ===
 Top 3:
-  Mohamed Salah: 18
-  Jacob Murphy: 12
-  Anthony Elanga: 11
+  Mohamed Salah: 18.0
+  Jacob Murphy: 12.0
+  Anthony Elanga: 11.0
 Bottom 3:
-  Tom Cairney: 0
-  Youssef Chermiti: 0
-  Alex Iwobi: 0
+  Vladimír Coufal: 0.0
+  Virgil van Dijk: 0.0
+  Victor Lindelöf: 0.0
 
 === Shots ===
 Top 3:
-  Mohamed Salah: 130
-  Cole Palmer: 126
-  Antoine Semenyo: 125
+  Mohamed Salah: 130.0
+  Cole Palmer: 126.0
+  Antoine Semenyo: 125.0
 Bottom 3:
-  Tom King: 0
-  Julio Soler: 0
-  Fraser Forster: 0
+  Victor Lindelöf: 0.0
+  Wataru Endo: 0.0
+  Tyler Fredricson: 0.0
 
 === Shots On Target ===
 Top 3:
-  Milos Kerkez: 61
-  Enzo Fernández: 60
-  Cody Gakpo: 51
+  Milos Kerkez: 61.0
+  Enzo Fernández: 60.0
+  Cody Gakpo: 51.0
 Bottom 3:
-  Caoimhín Kelleher: 0
-  Jayden Danns: 0
-  Joe Gomez: 0
+  Séamus Coleman: 0.0
+  Aaron Cresswell: 0.0
+  Yves Bissouma: 0.0
 
 === Big Chances Missed ===
 Top 3:
-  Ollie Watkins: 27
-  Mohamed Salah: 24
-  Erling Haaland: 21
+  Ollie Watkins: 27.0
+  Mohamed Salah: 24.0
+  Erling Haaland: 21.0
 Bottom 3:
-  Jonny Evans: 0
-  Paris Maghoma: 0
-  Rico Henry: 0
+  Álex Moreno: 0.0
+  Wesley Fofana: 0.0
+  Wes Burns: 0.0
 
 === Hit Woodwork ===
 Top 3:
-  Mohamed Salah: 6
-  Nicolas Jackson: 6
-  Cole Palmer: 6
+  Cole Palmer: 6.0
+  Mohamed Salah: 6.0
+  Mohammed Kudus: 6.0
 Bottom 3:
-  Jhon Durán: 0
-  Ian Maatsen: 0
-  Emiliano Martínez: 0
+  Abdoulaye Doucouré: 0.0
+  Aaron Wan-Bissaka: 0.0
+  Tyler Adams: 0.0
 
 === Offsides ===
 Top 3:
-  Chris Wood: 28
-  Jamie Vardy: 27
-  Dominic Calvert-Lewin: 27
+  Chris Wood: 28.0
+  Jamie Vardy: 27.0
+  Dominic Calvert-Lewin: 27.0
 Bottom 3:
-  Abdukodir Khusanov: 0
-  Kalvin Phillips: 0
-  Marcus Harness: 0
+  Álex Moreno: 0.0
+  Wesley Fofana: 0.0
+  Wes Burns: 0.0
 
 === Touches ===
 Top 3:
-  Virgil van Dijk: 3347
-  Josko Gvardiol: 3194
-  Levi Colwill: 2965
+  Virgil van Dijk: 3347.0
+  Levi Colwill: 2965.0
+  William Saliba: 2883.0
 Bottom 3:
-  Remy Rees-Dottin: 0
-  Jay Stansfield: 0
-  Michael Golding: 0
+  Federico Chiesa: 52.0
+  Jeremy Monga: 57.0
+  Danny Ward: 59.0
 
 === Passes ===
 Top 3:
-  Victor Kristiansen: 2923
-  Lesley Ugochukwu: 2595
-  Will Hughes: 2547
+  Lesley Ugochukwu: 2595.0
+  Will Hughes: 2547.0
+  Joël Veltman: 2528.0
 Bottom 3:
-  George Edmundson: 0
-  James McAtee: 0
-  John Stones: 0
+  Aaron Ramsdale: 0.0
+  William Osula: 0.0
+  Willian: 0.0
 
 === Successful Passes ===
 Top 3:
-  Victor Kristiansen: 2680
-  Will Hughes: 2409
-  Lesley Ugochukwu: 2328
+  Will Hughes: 2409.0
+  Lesley Ugochukwu: 2328.0
+  Joël Veltman: 2310.0
 Bottom 3:
-  Luis Guilherme: 0
-  Asher Agbinone: 0
-  Olabade Aluko: 0
+  Aaron Ramsdale: 0.0
+  William Osula: 0.0
+  Willian: 0.0
 
 === Crosses ===
 Top 3:
-  Antoine Semenyo: 170
-  Pedro Neto: 133
-  Mikkel Damsgaard: 132
+  Antoine Semenyo: 170.0
+  Pedro Neto: 133.0
+  Mikkel Damsgaard: 132.0
 Bottom 3:
-  Hwang Hee-Chan: 0
-  Daniel Podence: 0
-  Dan Bentley: 0
+  Tyrell Malacia: 0.0
+  Tyler Fredricson: 0.0
+  Aaron Ramsdale: 0.0
 
 === Successful Crosses ===
 Top 3:
-  Antoine Semenyo: 42
-  Mikkel Damsgaard: 35
-  Paul Onuachu: 34
+  Antoine Semenyo: 42.0
+  Mikkel Damsgaard: 35.0
+  Pedro Neto: 34.0
 Bottom 3:
-  Ben Godfrey: 0
-  Harrison Reed: 0
-  Jay Stansfield: 0
+  Aaron Ramsdale: 0.0
+  Antony: 0.0
+  Arijanet Muric: 0.0
 
 === fThird Passes ===
 Top 3:
-  Brennan Johnson: 864
-  Joël Veltman: 822
-  Marshall Munetsi: 757
+  Brennan Johnson: 864.0
+  Joël Veltman: 822.0
+  Marshall Munetsi: 757.0
 Bottom 3:
-  Jonny Evans: 0
-  Jay Stansfield: 0
-  Vitor Reis: 0
+  Aaron Ramsdale: 0.0
+  Toby Collyer: 0.0
+  Timo Werner: 0.0
 
 === Successful fThird Passes ===
 Top 3:
-  Joël Veltman: 717
-  Brennan Johnson: 647
-  Martin Ødegaard: 639
+  Joël Veltman: 717.0
+  Brennan Johnson: 647.0
+  Martin Ødegaard: 639.0
 Bottom 3:
-  Romain Esse: 0
-  Ricardo Pereira: 0
-  Will Alves: 0
+  Aaron Ramsdale: 0.0
+  William Osula: 0.0
+  Ryan Sessegnon: 0.0
 
 === Through Balls ===
 Top 3:
-  Brennan Johnson: 31
-  Mikel Merino: 27
-  Marshall Munetsi: 25
+  Brennan Johnson: 31.0
+  Mikel Merino: 27.0
+  Marshall Munetsi: 25.0
 Bottom 3:
-  Luke Thomas: 0
-  Jayden Danns: 0
-  Joe Gomez: 0
+  Arijanet Muric: 0.0
+  Taiwo Awoniyi: 0.0
+  Tariq Lamptey: 0.0
 
 === Carries ===
 Top 3:
-  Jan Bednarek: 770
-  Joël Veltman: 732
-  Ryan Manning: 714
+  Jan Bednarek: 770.0
+  Joël Veltman: 732.0
+  Ryan Manning: 714.0
 Bottom 3:
-  Renato Veiga: 0
-  Abdul Fatawu: 0
-  Bobby De Cordova-Reid: 0
+  Aaron Ramsdale: 0.0
+  William Osula: 0.0
+  Willian: 0.0
 
 === Progressive Carries ===
 Top 3:
-  Jan Bednarek: 494
-  Joël Veltman: 405
-  Ryan Manning: 397
+  Jan Bednarek: 494.0
+  Joël Veltman: 405.0
+  Ryan Manning: 397.0
 Bottom 3:
-  Reiss Nelson: 0
-  Patson Daka: 0
-  Josh Acheampong: 0
+  Aaron Ramsdale: 0.0
+  William Osula: 0.0
+  Ederson: 0.0
 
 === Carries Ended with Goal ===
 Top 3:
-  Bruno Guimarães: 9
-  Enzo Fernández: 6
-  Harry Winks: 5
+  Bruno Guimarães: 9.0
+  Enzo Fernández: 6.0
+  Jarrad Branthwaite: 5.0
 Bottom 3:
-  Ashley Young: 0
-  James Garner: 0
-  Jake O'Brien: 0
+  Alphonse Areola: 0.0
+  Amad Diallo: 0.0
+  Amadou Onana: 0.0
 
 === Carries Ended with Assist ===
 Top 3:
-  Milos Kerkez: 9
-  Simon Adingra: 7
-  Sasa Lukic: 5
+  Milos Kerkez: 9.0
+  Simon Adingra: 7.0
+  Moisés Caicedo: 5.0
 Bottom 3:
-  Lloyd Kelly: 0
-  Conor Townsend: 0
-  Dara O'Shea: 0
+  Will Hughes: 0.0
+  Tyler Fredricson: 0.0
+  Tyrell Malacia: 0.0
 
 === Carries Ended with Shot ===
 Top 3:
-  Cody Gakpo: 44
-  Anthony Gordon: 40
-  Jarrad Branthwaite: 40
+  Cody Gakpo: 44.0
+  Jarrad Branthwaite: 40.0
+  Anthony Gordon: 40.0
 Bottom 3:
-  Sam Szmodics: 0
-  Conor Townsend: 0
-  George Edmundson: 0
+  Aaron Ramsdale: 0.0
+  William Osula: 0.0
+  William Saliba: 0.0
 
 === Carries Ended with Chance ===
 Top 3:
-  Milos Kerkez: 35
-  Cody Gakpo: 27
-  Anthony Gordon: 26
+  Milos Kerkez: 35.0
+  Cody Gakpo: 27.0
+  Anthony Gordon: 26.0
 Bottom 3:
-  Maxwel Cornet: 0
-  Maximilian Kilman: 0
-  Lukasz Fabianski: 0
+  Aaron Ramsdale: 0.0
+  William Osula: 0.0
+  William Saliba: 0.0
 
 === Possession Won ===
 Top 3:
-  Mohammed Kudus: 229
-  Brennan Johnson: 213
-  Edson Álvarez: 207
+  Mohammed Kudus: 229.0
+  Brennan Johnson: 213.0
+  Edson Álvarez: 207.0
 Bottom 3:
-  Divin Mubama: 0
-  James McAtee: 0
-  John Stones: 0
+  Aaron Ramsdale: 0.0
+  William Osula: 0.0
+  Willian: 0.0
 
 === Dispossessed ===
 Top 3:
-  Mohammed Kudus: 93
-  Antoine Semenyo: 77
-  Jarrod Bowen: 77
+  Mohammed Kudus: 93.0
+  Antoine Semenyo: 77.0
+  Jarrod Bowen: 77.0
 Bottom 3:
-  Alphonse Areola: 0
-  Aaron Cresswell: 0
-  Will Lankshear: 0
+  Victor Lindelöf: 0.0
+  Tyrone Mings: 0.0
+  Tyrell Malacia: 0.0
 
 === Clean Sheets ===
 Top 3:
-  Virgil van Dijk: 14
-  Matz Sels: 13
-  David Raya: 13
+  Virgil van Dijk: 14.0
+  David Raya: 13.0
+  Matz Sels: 13.0
 Bottom 3:
-  Kieran Tierney: 0
-  Sergio Reguilón: 0
-  Richarlison: 0
+  Andrés García: 0.0
+  Tommy Doyle: 0.0
+  Tom Cairney: 0.0
 
 === Clearances ===
 Top 3:
-  Murillo: 242
-  Nathan Collins: 220
-  Dara O'Shea: 218
+  Murillo: 242.0
+  Nathan Collins: 220.0
+  Dara O'Shea: 218.0
 Bottom 3:
-  Nathan Butler-Oyedeji: 0
-  Tom King: 0
-  Mikkel Damsgaard: 0
+  Bernardo Silva: 0.0
+  Guido Rodríguez: 0.0
+  Kevin Schade: 0.0
 
 === Interceptions ===
 Top 3:
-  Aaron Wan-Bissaka: 66
-  Antoine Semenyo: 62
-  Rúben Dias: 60
+  Aaron Wan-Bissaka: 66.0
+  Antoine Semenyo: 62.0
+  Rúben Dias: 60.0
 Bottom 3:
-  Harrison Armstrong: 0
-  Kasey McAteer: 0
-  Marcus Harness: 0
+  Aaron Ramsdale: 0.0
+  William Osula: 0.0
+  Willian: 0.0
 
 === Blocks ===
 Top 3:
-  Myles Lewis-Skelly: 57
-  Danny Welbeck: 47
-  Morgan Rogers: 42
+  Myles Lewis-Skelly: 57.0
+  Danny Welbeck: 47.0
+  Morgan Rogers: 42.0
 Bottom 3:
-  Adam Webster: 0
-  Bobby De Cordova-Reid: 0
-  Caleb Okoli: 0
+  Aaron Ramsdale: 0.0
+  William Osula: 0.0
+  Willian: 0.0
 
 === Tackles ===
 Top 3:
-  Idrissa Gueye: 133
-  Daniel Muñoz: 123
-  João Gomes: 116
+  Daniel Muñoz: 123.0
+  João Gomes: 116.0
+  Noussair Mazraoui: 115.0
 Bottom 3:
-  Neto: 0
-  Riccardo Calafiori: 0
-  Takehiro Tomiyasu: 0
+  Arijanet Muric: 0.0
+  Taylor Harwood-Bellis: 0.0
+  Stefan Ortega: 0.0
 
 === Ground Duels ===
 Top 3:
-  Mohamed Salah: 435
-  Bruno Fernandes: 426
-  Joelinton: 402
+  Mohamed Salah: 435.0
+  Bruno Fernandes: 426.0
+  Joelinton: 402.0
 Bottom 3:
-  Rodri: 0
-  Olabade Aluko: 0
-  Patson Daka: 0
+  André Onana: 0.0
+  Andrés García: 0.0
+  Andy Irving: 0.0
 
 === gDuels Won ===
 Top 3:
-  Bruno Fernandes: 224
-  Mohammed Kudus: 200
-  Rasmus Højlund: 198
+  Bruno Fernandes: 224.0
+  Mohammed Kudus: 200.0
+  Rasmus Højlund: 198.0
 Bottom 3:
-  Nathaniel Clyne: 0
-  Olabade Aluko: 0
-  Patson Daka: 0
+  Andy Irving: 0.0
+  Antony: 0.0
+  Arijanet Muric: 0.0
 
 === Aerial Duels ===
 Top 3:
-  Chris Richards: 240
-  Daichi Kamada: 224
-  Bernardo Silva: 204
+  Chris Richards: 240.0
+  Daichi Kamada: 224.0
+  Bernardo Silva: 204.0
 Bottom 3:
-  Jahmai Simpson-Pusey: 0
-  Nathan Aké: 0
-  Nico González: 0
+  Aaron Ramsdale: 0.0
+  William Osula: 0.0
+  Willian: 0.0
 
 === aDuels Won ===
 Top 3:
-  Daichi Kamada: 148
-  Victor Kristiansen: 119
-  Myles Lewis-Skelly: 119
+  Daichi Kamada: 148.0
+  Myles Lewis-Skelly: 119.0
+  Danny Welbeck: 117.0
 Bottom 3:
-  Ederson: 0
-  Jayden Danns: 0
-  Joe Gomez: 0
+  Aaron Ramsdale: 0.0
+  Welington: 0.0
+  Alex Scott: 0.0
 
 === Goals Conceded ===
 Top 3:
-  Aaron Ramsdale: 66
-  Mads Hermansen: 58
-  Bart Verbruggen: 58
+  Aaron Ramsdale: 66.0
+  Bart Verbruggen: 58.0
+  Mads Hermansen: 58.0
 Bottom 3:
-  Marc Guéhi: 0
-  Adam Armstrong: 0
-  Abdoulaye Doucouré: 0
+  William Saliba: 0.0
+  Yoane Wissa: 0.0
+  Youri Tielemans: 0.0
 
 === xGoT Conceded ===
 Top 3:
-  Aaron Ramsdale: 66
-  Mads Hermansen: 57
-  Mark Flekken: 53
+  Aaron Ramsdale: 66.0
+  Mads Hermansen: 57.0
+  Mark Flekken: 53.0
 Bottom 3:
-  Marc Guéhi: 0
-  Adam Armstrong: 0
-  Abdoulaye Doucouré: 0
+  Woyo Coulibaly: 0.0
+  Yankuba Minteh: 0.0
+  Yasin Ayari: 0.0
 
 === Own Goals ===
 Top 3:
-  Marc Guéhi: 3
-  Vitaly Janelt: 2
-  Craig Dawson: 2
+  Marc Guéhi: 3.0
+  Dan Burn: 2.0
+  Vitaly Janelt: 2.0
 Bottom 3:
-  Justin Devenny: 0
-  Adam Armstrong: 0
-  Abdoulaye Doucouré: 0
+  Santiago Bueno: 0.0
+  Alex Scott: 0.0
+  Alex Palmer: 0.0
 
 === Fouls ===
 Top 3:
-  Antoine Semenyo: 73
-  Liam Delap: 72
-  Moisés Caicedo: 70
+  Antoine Semenyo: 73.0
+  Liam Delap: 72.0
+  João Gomes: 70.0
 Bottom 3:
-  Jurriën Timber: 0
-  Nathan Butler-Oyedeji: 0
-  Robin Olsen: 0
+  Tyler Dibling: 0.0
+  Arijanet Muric: 0.0
+  Tyler Fredricson: 0.0
 
 === Yellow Cards ===
 Top 3:
-  Liam Delap: 12
-  Sasa Lukic: 12
-  Flynn Downes: 12
+  Liam Delap: 12.0
+  Flynn Downes: 12.0
+  Dan Burn: 11.0
 Bottom 3:
-  Tom King: 0
-  Kieran Tierney: 0
-  Julio Soler: 0
+  Wataru Endo: 0.0
+  Andrés García: 0.0
+  Antony: 0.0
 
 === Red Cards ===
 Top 3:
-  Bruno Fernandes: 2
-  Jack Stephens: 2
-  Myles Lewis-Skelly: 2
+  Jack Stephens: 2.0
+  Bruno Fernandes: 2.0
+  Myles Lewis-Skelly: 2.0
 Bottom 3:
-  Adam Armstrong: 0
-  Iliman Ndiaye: 0
-  Idrissa Gueye: 0
+  Wilfred Ndidi: 0.0
+  Alex Scott: 0.0
+  Alex Palmer: 0.0
 
 === Saves ===
 Top 3:
-  Mark Flekken: 153
-  Aaron Ramsdale: 125
-  Jordan Pickford: 122
+  Mark Flekken: 153.0
+  Aaron Ramsdale: 125.0
+  Jordan Pickford: 122.0
 Bottom 3:
-  Nathaniel Clyne: 0
-  Beto: 0
-  Ashley Young: 0
+  Séamus Coleman: 0.0
+  Willian: 0.0
+  Wilson Odobert: 0.0
 
 === Penalties Saved ===
 Top 3:
-  Jordan Pickford: 2
-  Aaron Ramsdale: 2
-  José Sá: 2
+  José Sá: 2.0
+  Jordan Pickford: 2.0
+  Aaron Ramsdale: 2.0
 Bottom 3:
-  Justin Devenny: 0
-  Abdoulaye Doucouré: 0
-  Will Hughes: 0
+  Woyo Coulibaly: 0.0
+  Alexander Isak: 0.0
+  Tyler Adams: 0.0
 
 === Clearances Off Line ===
 Top 3:
-  Ezri Konsa: 3
-  Dara O'Shea: 3
-  Lewis Hall: 3
+  Iliman Ndiaye: 3.0
+  Ezri Konsa: 3.0
+  Dara O'Shea: 3.0
 Bottom 3:
-  Jay Stansfield: 0
-  Séamus Coleman: 0
-  Tim Iroegbunam: 0
+  Santiago Bueno: 0.0
+  Alex Scott: 0.0
+  Alex Palmer: 0.0
 
 === Punches ===
 Top 3:
-  Matz Sels: 28
-  Jordan Pickford: 22
-  Bernd Leno: 21
+  Matz Sels: 28.0
+  Jordan Pickford: 22.0
+  Bernd Leno: 21.0
 Bottom 3:
-  Maxence Lacroix: 0
-  Ashley Young: 0
-  Armando Broja: 0
+  Wilfred Ndidi: 0.0
+  Alex Scott: 0.0
+  Alex Palmer: 0.0
 
 === High Claims ===
 Top 3:
-  Emiliano Martínez: 56
-  David Raya: 53
-  Robert Sánchez: 47
+  Emiliano Martínez: 56.0
+  David Raya: 53.0
+  Robert Sánchez: 47.0
 Bottom 3:
-  Nathaniel Clyne: 0
-  Beto: 0
-  Ashley Young: 0
+  Álex Moreno: 0.0
+  Wout Faes: 0.0
+  Woyo Coulibaly: 0.0
 
 === Goals Prevented ===
 Top 3:
@@ -458,15 +458,75 @@ Bottom 3:
   Bernd Leno: -2.7
   Alphonse Areola: -2.2
 
+=== Age ===
+Top 3:
+  Łukasz Fabiański: 39.0
+  Ashley Young: 39.0
+  James Milner: 38.0
+Bottom 3:
+  Chidozie Obi-Martin: 16.0
+  Mikey Moore: 16.0
+  Myles Lewis-Skelly: 17.0
+
+=== MP ===
+Top 3:
+  Anthony Elanga: 38.0
+  Ollie Watkins: 38.0
+  Raúl Jiménez: 38.0
+Bottom 3:
+  Jahmai Simpson-Pusey: 2.0
+  Hákon Rafn Valdimarsson: 2.0
+  Tyler Fredricson: 2.0
+
+=== Starts ===
+Top 3:
+  Nathan Collins: 38.0
+  Moisés Caicedo: 38.0
+  Bruno Guimarães: 38.0
+Bottom 3:
+  Ali Al Hamadi: 0.0
+  Toby Collyer: 0.0
+  Harrison Reed: 0.0
+
+=== Min ===
+Top 3:
+  Jordan Pickford: 3420.0
+  Dean Henderson: 3420.0
+  David Raya: 3420.0
+Bottom 3:
+  Jahmai Simpson-Pusey: 96.0
+  Emi Buendía: 98.0
+  Billy Gilmour: 98.0
+
+=== 90s ===
+Top 3:
+  Jordan Pickford: 38.0
+  Dean Henderson: 38.0
+  David Raya: 38.0
+Bottom 3:
+  Rico Henry: 1.1
+  Emi Buendía: 1.1
+  Jeffrey Schlupp: 1.1
+
 === xG ===
 Top 3:
   Mohamed Salah: 25.2
   Erling Haaland: 22.0
   Alexander Isak: 20.3
 Bottom 3:
-  Neto: 0.0
-  Remy Rees-Dottin: 0.0
-  Max Aarons: 0.0
+  Łukasz Fabiański: 0.0
+  Aaron Ramsdale: 0.0
+  Tyrell Malacia: 0.0
+
+=== npxG ===
+Top 3:
+  Erling Haaland: 18.8
+  Yoane Wissa: 18.5
+  Mohamed Salah: 18.2
+Bottom 3:
+  Łukasz Fabiański: 0.0
+  Aaron Ramsdale: 0.0
+  André Onana: 0.0
 
 === xAG ===
 Top 3:
@@ -474,37 +534,317 @@ Top 3:
   Cole Palmer: 10.9
   Jacob Murphy: 8.9
 Bottom 3:
-  Nathan Butler-Oyedeji: 0.0
-  Neto: 0.0
-  Takehiro Tomiyasu: 0.0
+  Łukasz Fabiański: 0.0
+  Aaron Ramsdale: 0.0
+  Ben Godfrey: 0.0
 
-=== SCA ===
+=== PrgC ===
+Top 3:
+  Jeremy Doku: 213.0
+  Mohamed Salah: 155.0
+  Noni Madueke: 154.0
+Bottom 3:
+  Łukasz Fabiański: 0.0
+  Aaron Ramsdale: 0.0
+  Toby Collyer: 0.0
+
+=== PrgP ===
+Top 3:
+  Bruno Fernandes: 325.0
+  Bruno Guimarães: 271.0
+  Joško Gvardiol: 264.0
+Bottom 3:
+  Łukasz Fabiański: 0.0
+  Aaron Ramsdale: 0.0
+  Altay Bayındır: 0.0
+
+=== PrgR ===
+Top 3:
+  Mohamed Salah: 488.0
+  Bryan Mbeumo: 351.0
+  Luis Díaz: 293.0
+Bottom 3:
+  Łukasz Fabiański: 0.0
+  Guglielmo Vicario: 0.0
+  Aaron Ramsdale: 0.0
+
+=== # ===
+Top 3:
+  Rico Lewis: 1066.0
+  Trent Alexander-Arnold: 858.0
+  Conor Bradley: 588.0
+Bottom 3:
+  Neto: 2.0
+  Nathan Patterson: 2.0
+  Alex McCarthy: 3.0
+
+=== Minutes_db ===
+Top 3:
+  Virgil van Dijk: 1260.0
+  Antonee Robinson: 1260.0
+  Nathan Collins: 1260.0
+Bottom 3:
+  Conor Townsend: 1.0
+  James Mcatee: 2.0
+  Jorge Cuenca: 2.0
+
+=== Goals_db ===
+Top 3:
+  Mohamed Salah: 13.0
+  Erling Haaland: 12.0
+  Chris Wood: 9.0
+Bottom 3:
+  Abdul Fatawu Issahaku: 0.0
+  Thiago: 0.0
+  Aaron Ramsdale: 0.0
+
+=== Assists_db ===
+Top 3:
+  Bukayo Saka: 10.0
+  Mohamed Salah: 8.0
+  Cole Palmer: 6.0
+Bottom 3:
+  Andreas Pereira: 0.0
+  Andrew Robertson: 0.0
+  André: 0.0
+
+=== Penalty Shoot on Goal ===
+Top 3:
+  Justin Kluivert: 4.0
+  Mohamed Salah: 4.0
+  Bryan Mbeumo: 2.0
+Bottom 3:
+  Amadou Onana: 0.0
+  Amad Diallo: 0.0
+  Alphonse Areola: 0.0
+
+=== Penalty Shoot ===
+Top 3:
+  Justin Kluivert: 4.0
+  Mohamed Salah: 4.0
+  Anthony Gordon: 2.0
+Bottom 3:
+  Amadou Onana: 0.0
+  Amad Diallo: 0.0
+  Alphonse Areola: 0.0
+
+=== Total Shoot ===
+Top 3:
+  Erling Haaland: 65.0
+  Antoine Semenyo: 54.0
+  Cole Palmer: 48.0
+Bottom 3:
+  Łukasz Fabiański: 0.0
+  Toby Collyer: 0.0
+  Boubacar Kamara: 0.0
+
+=== Shoot on Target ===
+Top 3:
+  Erling Haaland: 34.0
+  Mohamed Salah: 23.0
+  Nicolas Jackson: 19.0
+Bottom 3:
+  Łukasz Fabiański: 0.0
+  Aaron Cresswell: 0.0
+  Álex Moreno: 0.0
+
+=== Yellow Cards_db ===
+Top 3:
+  Wesley Fofana: 6.0
+  Will Hughes: 6.0
+  Marc Cucurella: 6.0
+Bottom 3:
+  Adam Webster: 0.0
+  Timothy Castagne: 0.0
+  Toby Collyer: 0.0
+
+=== Red Cards_db ===
+Top 3:
+  Jack Stephens: 2.0
+  William Saliba: 1.0
+  James Ward-Prowse: 1.0
+Bottom 3:
+  Amadou Onana: 0.0
+  Amad Diallo: 0.0
+  Alphonse Areola: 0.0
+
+=== Touches_db ===
+Top 3:
+  Virgil van Dijk: 1243.0
+  Levi Colwill: 1084.0
+  Joško Gvardiol: 1077.0
+Bottom 3:
+  Conor Townsend: 2.0
+  William Osula: 4.0
+  Hamza Choudhury: 5.0
+
+=== Dribbles ===
+Top 3:
+  Daniel Muñoz: 52.0
+  João Gomes: 48.0
+  Wilfred Ndidi: 47.0
+Bottom 3:
+  Łukasz Fabiański: 0.0
+  Aaron Ramsdale: 0.0
+  Arijanet Muric: 0.0
+
+=== Tackles_db ===
+Top 3:
+  Virgil van Dijk: 28.0
+  Ryan Gravenberch: 28.0
+  Kenny Tete: 28.0
+Bottom 3:
+  Łukasz Fabiański: 0.0
+  Aaron Cresswell: 0.0
+  Toby Collyer: 0.0
+
+=== Blocks_db ===
+Top 3:
+  Nathan Collins: 36.0
+  Wilfred Ndidi: 31.0
+  Taylor Harwood-Bellis: 30.0
+Bottom 3:
+  Łukasz Fabiański: 0.0
+  Tyrell Malacia: 0.0
+  Arijanet Muric: 0.0
+
+=== Expected Goals (xG) ===
+Top 3:
+  Erling Haaland: 12.2
+  Mohamed Salah: 10.5
+  Ollie Watkins: 8.4
+Bottom 3:
+  Łukasz Fabiański: 0.0
+  Aaron Cresswell: 0.0
+  Andy Irving: 0.0
+
+=== Non-Penalty xG (npxG) ===
+Top 3:
+  Erling Haaland: 11.4
+  Ollie Watkins: 7.6
+  Cole Palmer: 7.6
+Bottom 3:
+  Łukasz Fabiański: 0.0
+  Toti Gomes: 0.0
+  Tom Cairney: 0.0
+
+=== Expected Assists (xAG) ===
+Top 3:
+  Bukayo Saka: 5.4
+  Mohamed Salah: 5.2
+  Cole Palmer: 5.1
+Bottom 3:
+  Łukasz Fabiański: 0.0
+  Aaron Ramsdale: 0.0
+  Archie Gray: 0.0
+
+=== Shot-Creating Actions ===
 Top 3:
   Bukayo Saka: 80.0
   Cole Palmer: 70.0
   Dejan Kulusevski: 67.0
 Bottom 3:
-  Neto: 0.0
-  Mark Travers: 0.0
-  Myles Lewis-Skelly: 0.0
+  Alex McCarthy: 0.0
+  Hamza Choudhury: 0.0
+  Harvey Elliott: 0.0
 
-=== GCA ===
+=== Goal-Creating Actions ===
 Top 3:
   Bukayo Saka: 21.0
   Enzo Fernández: 10.0
-  James Maddison: 9.0
+  Mikkel Damsgaard: 9.0
 Bottom 3:
-  Edson Álvarez: 0.0
-  Ben Mee: 0.0
-  Tyler Adams: 0.0
+  Tosin Adarabioyo: 0.0
+  Ali Al Hamadi: 0.0
+  Alisson: 0.0
+
+=== Passes Completed ===
+Top 3:
+  Virgil van Dijk: 1014.0
+  Rúben Dias: 896.0
+  Jan Bednarek: 888.0
+Bottom 3:
+  Hamza Choudhury: 0.0
+  Conor Townsend: 0.0
+  Ryan Sessegnon: 1.0
+
+=== Passes Attempted ===
+Top 3:
+  Virgil van Dijk: 1112.0
+  Levi Colwill: 974.0
+  Rúben Dias: 956.0
+Bottom 3:
+  Conor Townsend: 0.0
+  William Osula: 2.0
+  Joshua King: 3.0
+
+=== Progressive Passes ===
+Top 3:
+  Joško Gvardiol: 116.0
+  Youri Tielemans: 100.0
+  Bruno Fernandes: 97.0
+Bottom 3:
+  Łukasz Fabiański: 0.0
+  Antony: 0.0
+  Alphonse Areola: 0.0
+
+=== Carries_db ===
+Top 3:
+  Rúben Dias: 730.0
+  Joško Gvardiol: 704.0
+  Virgil van Dijk: 697.0
+Bottom 3:
+  Conor Townsend: 0.0
+  Hamza Choudhury: 0.0
+  James Mcatee: 2.0
+
+=== Progressive Carries_db ===
+Top 3:
+  Jeremy Doku: 82.0
+  Kaoru Mitoma: 73.0
+  Noni Madueke: 67.0
+Bottom 3:
+  Łukasz Fabiański: 0.0
+  Andy Irving: 0.0
+  André Onana: 0.0
+
+=== Dribble Attempts ===
+Top 3:
+  Iliman Ndiaye: 78.0
+  Abdul Fatawu Issahaku: 69.0
+  Jeremy Doku: 65.0
+Bottom 3:
+  Łukasz Fabiański: 0.0
+  Andy Irving: 0.0
+  André Onana: 0.0
+
+=== Successful Dribbles ===
+Top 3:
+  Iliman Ndiaye: 36.0
+  Mohammed Kudus: 34.0
+  Jeremy Doku: 34.0
+Bottom 3:
+  Łukasz Fabiański: 0.0
+  Aaron Cresswell: 0.0
+  Tomáš Souček: 0.0
+
+=== Total_Minutes ===
+Top 3:
+  Jordan Pickford: 3420.0
+  Dean Henderson: 3420.0
+  David Raya: 3420.0
+Bottom 3:
+  Jahmai Simpson-Pusey: 96.0
+  Emi Buendía: 98.0
+  Billy Gilmour: 98.0
 
 === TransferValue_EUR ===
 Top 3:
   Erling Haaland: 200000000.0
   Bukayo Saka: 130000000.0
-  Alexander Isak: 120000000.0
+  Cole Palmer: 120000000.0
 Bottom 3:
-  Tom King: 150000.0
-  Mateus Mané: 250000.0
-  Lukasz Fabianski: 250000.0
+  Łukasz Fabiański: 250000.0
+  Adam Smith: 500000.0
+  Idrissa Gana Gueye: 1000000.0
 

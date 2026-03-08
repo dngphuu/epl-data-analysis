@@ -90,25 +90,45 @@ def main():
     df_fbref = pd.read_csv('data/raw/fbref_PL_2024-25.csv')
     df_db = pd.read_csv('data/raw/database.csv')
     
-    # 2. Aggregate SCA and GCA from database.csv
-    print("Aggregating SCA and GCA from database.csv...")
-    df_actions = df_db.groupby('Player')[['Shot-Creating Actions', 'Goal-Creating Actions']].sum().reset_index()
-    df_actions.rename(columns={'Shot-Creating Actions': 'SCA', 'Goal-Creating Actions': 'GCA'}, inplace=True)
+    # 2. Aggregate all numeric stats from database.csv
+    print("Aggregating statistics from database.csv...")
+    # Identify numeric columns for aggregation
+    numeric_cols = df_db.select_dtypes(include=['number']).columns.tolist()
+    if 'Player' in numeric_cols: numeric_cols.remove('Player')
     
-    # 3. Clean fbref data to extract xG and xAG
-    print("Extracting xG, xAG from fbref...")
-    df_fbref = df_fbref[['Player', 'xG', 'xAG']].copy()
-    df_fbref = df_fbref.groupby('Player')[['xG', 'xAG']].sum().reset_index()
+    # Aggregate by Player
+    df_actions = df_db.groupby('Player')[numeric_cols].sum().reset_index()
+    
+    # 3. Process fbref data
+    print("Processing fbref data...")
+    # Standard stats from fbref
+    fbref_useful_cols = ['Player', 'Nation', 'Pos', 'Squad', 'Age', 'MP', 'Starts', 'Min', '90s', 'xG', 'npxG', 'xAG', 'PrgC', 'PrgP', 'PrgR']
+    df_fbref_clean = df_fbref[[col for col in fbref_useful_cols if col in df_fbref.columns]].copy()
     
     # 4. Merge datasets
     print("Merging datasets...")
     if 'Player Name' in df_main.columns:
         df_main.rename(columns={'Player Name': 'Player'}, inplace=True)
         
-    df_merged = pd.merge(df_main, df_fbref, on='Player', how='left')
-    df_merged = pd.merge(df_merged, df_actions, on='Player', how='left')
+    df_merged = pd.merge(df_main, df_fbref_clean, on='Player', how='outer', suffixes=('', '_fbref'))
+    df_merged = pd.merge(df_merged, df_actions, on='Player', how='outer', suffixes=('', '_db'))
     
-    # 5. Scrape transfermarkt per club
+    # Resolve Minutes column (use df_main or summed db or fbref)
+    # Priority: fbref 'Min' (often most accurate) > main 'Minutes' > db 'Minutes'
+    if 'Min' in df_merged.columns:
+        df_merged['Total_Minutes'] = df_merged['Min']
+    elif 'Minutes' in df_merged.columns:
+        df_merged['Total_Minutes'] = df_merged['Minutes']
+    else:
+        df_merged['Total_Minutes'] = 0
+        
+    # Filter players with > 90 minutes (Requirement I)
+    df_merged = df_merged[df_merged['Total_Minutes'] > 90].copy()
+    
+    # 5. Scrape and match transfermarkt values for players > 900 minutes (Requirement IV)
+    print("Handling Transfer Values (filtering for > 900 minutes)...")
+    players_over_900 = df_merged[df_merged['Total_Minutes'] > 900]['Player'].tolist()
+    
     tm_values = scrape_transfermarkt_values()
     df_tm = pd.DataFrame(list(tm_values.items()), columns=['Player', 'TransferValue_Str'])
     df_tm['TransferValue_EUR'] = df_tm['TransferValue_Str'].apply(convert_value)
@@ -116,20 +136,31 @@ def main():
     def match_names(name, names_list):
         from difflib import get_close_matches
         matches = get_close_matches(name, names_list, n=1, cutoff=0.7)
-        return matches[0] if matches else name
+        return matches[0] if matches else None
         
     tm_players = df_tm['Player'].tolist()
     if tm_players:
         print("Matching player names with Transfermarkt...")
-        df_merged['TM_Player_Match'] = df_merged['Player'].apply(lambda x: match_names(x, tm_players) if pd.notna(x) else x)
+        # Only attempt to match if player has > 900 minutes
+        df_merged['TM_Player_Match'] = df_merged.apply(
+            lambda row: match_names(row['Player'], tm_players) if row['Total_Minutes'] > 900 else None, 
+            axis=1
+        )
         df_merged = pd.merge(df_merged, df_tm, left_on='TM_Player_Match', right_on='Player', how='left', suffixes=('', '_tm'))
         if 'Player_tm' in df_merged.columns:
             df_merged.drop(columns=['Player_tm'], inplace=True)
     
+    # Final cleanup: Replace NaNs with 'N/a' for string columns as per requirement
+    df_merged.sort_values(by='Player', inplace=True)
+    
     # Save the final dataset
     output_path = 'data/processed/merged_epl_24_25.csv'
     df_merged.to_csv(output_path, index=False)
-    print(f"Data preparation complete. Final dataset saved to {output_path}")
+    
+    # Also save to results.csv in root to follow TASK.md exactly
+    df_merged.to_csv('results.csv', index=False)
+    
+    print(f"Data preparation complete. Final dataset saved to {output_path} and results.csv")
 
 if __name__ == "__main__":
     main()
