@@ -5,7 +5,7 @@
 Luồng hoạt động chính của project được chia thành 4 phần tương ứng với các script trong thư mục `src/`:
 
 ### 1. Thu thập và làm sạch dữ liệu (`src/data_collection.py`)
-- **Đầu vào:** Ban đầu định cào data từ FBref nhưng bị chặn bot rát quá và code bị lỗi thiếu cột, nên tôi dùng file data lấy từ Kaggle (`epl_player_stats_24_25.csv`) và ghép thêm một số chỉ số phụ (xG, xAG, SCA, GCA...) từ các nguồn data phụ (`database.csv` & `fbref_PL_2024-25.csv`).
+- **Đầu vào:** Ban đầu định cào data trực tiếp từ FBref nhưng bị chặn cộng thêm việc bị thiếu nhiều cột data, nên tôi dùng file data lấy từ Kaggle (`epl_player_stats_24_25.csv`) và ghép thêm một số chỉ số phụ (xG, xAG, SCA, GCA...) từ các nguồn data phụ (`database.csv` & `fbref_PL_2024-25.csv`).
 - **Xử lý:** Script này sẽ clean data, đổi các cột phần trăm sang số thập phân để tiện tính toán.
 - **Đầu ra:** Xuất ra file chuẩn chỉnh cuối cùng tại `data/processed/merged_epl_24_25.csv` để dùng chung cho các bước phân tích sau.
 
@@ -18,12 +18,11 @@ Luồng hoạt động chính của project được chia thành 4 phần tươn
 ### 3. Phân cụm (Clustering) cầu thủ (`src/ml_analysis.py`)
 - Sử dụng thuật toán **K-Means** kết hợp với thư viện `StandardScaler` để chuẩn hóa các feature trước khi đưa vào phân cụm.
 - **Chọn K bằng phương pháp Elbow:** Cho $k$ chạy từ 2 đến 10, thấy đường gấp khúc (elbow) rõ nét nhất ở $k=4$. Nghĩa là data có thể phân các cầu thủ thành 4 nhóm vai trò chính kiểu như: phòng ngự, cầm nhịp/chuyền bóng, kiến thiết, và tiền đạo chủ lực.
-- **Giảm chiều dữ liệu bằng PCA:** Không gian đa chiều rất khó biểu diễn, nên tôi dùng thuật toán PCA kéo dữ liệu tóm gọn lại còn 2 chiều (2D). Nhờ thế mà chấm lên scatter plot sẽ thấy các phân vùng dữ liệu (clusters) tách nhau ra cực kì rõ ràng và mịn.
-
+- **Giảm chiều dữ liệu bằng PCA:** Không gian đa chiều rất khó biểu diễn, nên dùng thuật toán PCA kéo dữ liệu gọn lại còn 2 chiều (2D).
 ### 4. Dự đoán giá trị chuyển nhượng
-- **Cào dữ liệu (Web Scraping):** Dùng `requests` và `BeautifulSoup` script để crawl auto lấy giá chuyển nhượng thực tế từ `transfermarkt.co.uk`. Crawl lách bằng cách duyệt qua từng nhóm đội rồi đi sâu vào detail vào từng cầu thủ để mở khóa giới hạn độ dài hiển thị trên trang.
+- **Cào dữ liệu (Web Scraping):** Dùng `requests` và `BeautifulSoup` script để crawl auto lấy giá chuyển nhượng thực tế từ `transfermarkt.co.uk`. Crawl bằng cách duyệt qua từng đội rồi đi sâu vào detail vào từng cầu thủ để mở khóa giới hạn độ dài hiển thị trên trang.
 - **Training Model:** Lọc điều kiện các cầu thủ đá $\ge$ 900 phút. Dùng mô hình **Random Forest Regressor** để chạy dự đoán biến trị giá `TransferValue_EUR`.
-- **Feature Selection:** Tận dụng đặc tính của cây quyết định Random Forest (tự đánh giá tiêu chuẩn và loại bỏ feature rác) nên tôi feed thẳng toàn bộ biến vào cho model học luôn mà không cần chọn lọc hay tinh giảm thủ công.
+- **Feature Selection:** Tận dụng đặc tính của cây quyết định Random Forest (tự đánh giá tiêu chuẩn và loại bỏ feature rác) nên feed thẳng cho model học luôn mà không cần chọn lọc hay tinh giảm thủ công.
 - **Kết quả:** Quá trình huấn luyện chỉ ra 5 chỉ số có sức ảnh hưởng gánh giá nhất đến túi tiền chuyển nhượng của một cầu thủ Ngoại Hạng Anh:
   1. Số cú sút (Shots Attempted)
   2. Bàn thắng kỳ vọng (xG)
